@@ -20,9 +20,9 @@ public class TestingApplication {
 
             DepositTest depositTest = new DepositTest();
             depositTest.testDepositService(userTest.getUser(), workerTest.getWorker());
-
-            CardTest cardTest = new CardTest();
-            cardTest.testCardService(userTest.getUser(), workerTest.getWorker());
+//
+//            CardTest cardTest = new CardTest();
+//            cardTest.testCardService(userTest.getUser(), workerTest.getWorker());
         }catch (Exception e){
             e.printStackTrace();
         }

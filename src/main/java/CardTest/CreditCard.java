@@ -13,6 +13,5 @@ public class CreditCard {
     private int expYear;
     private int CVC;
     private int balance;
-    private User owner;
     private UUID ownerId;
 }

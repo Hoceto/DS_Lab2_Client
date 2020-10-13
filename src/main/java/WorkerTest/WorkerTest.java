@@ -11,7 +11,7 @@ import org.apache.http.client.methods.HttpPost;
 import java.io.IOException;
 
 public class WorkerTest {
-    private String requestUrl = "http://localhost:8090/banking/worker";
+    private String requestUrl = "http://localhost:8095/worker";
 
     public void generateUser() throws IOException {
         WorkerBody workerBody = new WorkerBody("Super", "Worker");

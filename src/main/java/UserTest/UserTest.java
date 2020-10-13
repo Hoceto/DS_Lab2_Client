@@ -16,7 +16,7 @@ import java.util.GregorianCalendar;
 import java.util.logging.Logger;
 
 public class UserTest {
-    private String requestUrl = "http://localhost:8090/banking/user";
+    private String requestUrl = "http://localhost:8095/user";
 
     public void generateUser() throws IOException {
         UserBody userBody = new UserBody("Lionel", "Messi", "+3804563", "2000-11-08", "11111", "22222", "messi@lionel");

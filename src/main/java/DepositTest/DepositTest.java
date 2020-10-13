@@ -29,7 +29,7 @@ public class DepositTest {
     @Autowired
     WorkerTest workerService;
 
-    private String requestUrl = "http://localhost:8090/banking/deposit";
+    private String requestUrl = "http://localhost:8095/deposit";
 
     private String openingDate = "2020-01-01";
 
